@@ -58,6 +58,11 @@ function previewImage() {
 
 document.getElementById('uploadForm').addEventListener('submit', function(e) {
     e.preventDefault();
+
+    document.getElementById('progressContainer').style.display = 'block';
+    document.getElementById('submitButton').style.display = 'none';
+
+
     var formData = new FormData();
     var imageFile = document.getElementById('imageInput').files[0];
     formData.append('image', imageFile);
@@ -89,9 +94,12 @@ document.getElementById('response').innerHTML = "";
         document.getElementById('response').innerHTML += `<p>Predicted Animal: ${animals[maxIndex]}</p>`;
         document.getElementById('response').innerHTML += `Confidence Level: ${maxValue.toFixed(4)*100}%</p>`;
 
+        document.getElementById('progressContainer').style.display = 'none';
+        document.getElementById('submitButton').style.display = 'block';
+
     })
     .catch(error => {
-       // console.error('Error:', error);
-      //  document.getElementById('response').innerHTML = 'Error: ' + error.toString();
+    document.getElementById('progressContainer').style.display = 'none';
+        document.getElementById('submitButton').style.display = 'block';
     });
 });
