@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Classifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Animal Classifier</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" id="imageInput" name="image" accept="image/*" onchange="previewImage();">
+    </form>
+
+    <div id="imagePreviewContainer">
+        <img id="imagePreview" src="" alt="Image preview">
+    </div>
+
+
+
+    
+    <button type="submit" form="uploadForm">Submit</button>
+
+    <pre id="response"></pre>
+
+    <script src="script.js"></script>
+</body>
+</html>
