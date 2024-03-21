@@ -62,7 +62,7 @@ document.getElementById('uploadForm').addEventListener('submit', function(e) {
     var imageFile = document.getElementById('imageInput').files[0];
     formData.append('image', imageFile);
 
-    fetch('http://127.0.0.1:5000/upload', {
+    fetch('https://test7-dta7tckbua-ue.a.run.app/upload', {
         method: 'POST',
         body: formData,
     })
