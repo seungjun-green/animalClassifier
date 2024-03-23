@@ -1,0 +1,8 @@
+Flask
+flask-cors
+gunicorn==20.1.0
+tensorflow==2.16.1
+uvicorn== 0.28.1
+pillow==10.2.0
+numpy== 1.26.4
+python-multipart== 0.0.9
