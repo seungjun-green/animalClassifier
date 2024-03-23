@@ -29,7 +29,7 @@ document.getElementById('uploadForm').addEventListener('submit', function(e) {
     .then(response => response.json())
     .then(data => {
         console.log(data);
-        document.getElementById('response').innerHTML = JSON.stringify(data, null, 2);
+      //  document.getElementById('response').innerHTML = JSON.stringify(data, null, 2);
     })
     .catch(error => {
        // console.error('Error:', error);
