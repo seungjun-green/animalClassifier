@@ -32,8 +32,11 @@ button:hover {
 }
 #imagePreviewContainer {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 #imagePreview {
+    min-width: 300px;
+    min-height: 300px;
     max-width: 500px;
     max-height: 500px;
     display: block; /* Updated to block to remove it if there's no src */

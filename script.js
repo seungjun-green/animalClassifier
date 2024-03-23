@@ -88,7 +88,7 @@ document.getElementById('response').innerHTML = "";
             }
         });
 
-        let animals = ['cane', 'cavallo', 'elefante', 'farfalla', 'gallina', 'gatto', 'mucca', 'pecora', 'ragno', 'scoiattolo'];
+        let animals = ['dog', 'horse', 'elephant', 'butterfly', 'hen', 'cat', 'cow', 'sheep', 'spider', 'squirrel'];
 
         // Display these values on your webpage
         document.getElementById('response').innerHTML += `<p>Predicted Animal: ${animals[maxIndex]}</p>`;
