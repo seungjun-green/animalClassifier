@@ -5,6 +5,12 @@
 This web application is designed to classify photos of animals into one of the following 10 categories: dog, horse, elephant, butterfly, hen, cat, cow, sheep, spider, and squirrel.
 
 **Exmaple usecase:**
+<p align="center">
+  <img src="https://github.com/seungjun-green/animalClassifier/blob/master/images/cow.png" alt="First Image" width="100" height="150"/>
+  <img src="https://github.com/seungjun-green/animalClassifier/blob/master/images/cow.png" alt="Second Image" width="100" height="150"/>
+  <img src="[URL_of_third_image](https://github.com/seungjun-green/animalClassifier/blob/master/images/cow.png)" alt="Third Image" width="100" height="150"/>
+</p>
+
 
 This web application operates through an API that was developed by deploying a Flask app to Google Cloud Run. 
 
