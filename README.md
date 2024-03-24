@@ -6,9 +6,9 @@ This web application is designed to classify photos of animals into one of the f
 
 **Exmaple usecase:**
 <p align="center">
-  <img src="https://github.com/seungjun-green/animalClassifier/blob/master/images/cow.png" alt="First Image" width="100" height="150"/>
-  <img src="https://github.com/seungjun-green/animalClassifier/blob/master/images/cow.png" alt="Second Image" width="100" height="150"/>
-  <img src="[URL_of_third_image](https://github.com/seungjun-green/animalClassifier/blob/master/images/cow.png)" alt="Third Image" width="100" height="150"/>
+  <img src="https://github.com/seungjun-green/animalClassifier/blob/master/images/cow.png" alt="First Image" width="500" height="750"/>
+  <img src="https://github.com/seungjun-green/animalClassifier/blob/master/images/cow.png" alt="Second Image" width="500" height="750"/>
+  <img src="https://github.com/seungjun-green/animalClassifier/blob/master/images/cow.png" alt="Second Image" width="500" height="750"/>
 </p>
 
 
