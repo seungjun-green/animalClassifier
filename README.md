@@ -2,7 +2,7 @@
 
 ### Usage
 
-This web application is designed to classify photos of animals into one of the following 10 categories: dog, horse, elephant, butterfly, hen, cat, cow, sheep, spider, and squirrel.
+This [web application](https://seungjun-green.github.io/animalClassifier/) is designed to classify photos of animals into one of the following 10 categories: dog, horse, elephant, butterfly, hen, cat, cow, sheep, spider, and squirrel.
 
 **Exmaple usecase:**
 <p align="center">
